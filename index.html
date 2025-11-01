@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- HTML Meta Tags -->
-    <title>फसल उत्पादन परिवर्तक </title>
+    <title>फसल उत्पादन परिवर्तक</title>
     <meta
       name="description"
       content="Convert and calculate crop production metrics with precision - designed for modern farming needs"
@@ -48,6 +48,9 @@
     />
     <style>
       /* --- Dark Theme Styling --- */
+      body {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      }
       .dark-bg {
         background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
         color: #e2e8f0;
@@ -88,7 +91,7 @@
       <!-- Header -->
       <header class="text-center mb-12">
         <h1 class="text-4xl font-bold text-highlight mb-2">
-          🌾 फसल उत्पादन परिवर्तक
+          फसल उत्पादन परिवर्तक
         </h1>
         <p class="text-lg text-gray-400">
           भूमि क्षेत्रफल को बाज़ार बिक्री के अनुमानित फसल उत्पादन में बदलें
@@ -105,10 +108,7 @@
             </h2>
 
             <div class="mb-6">
-              <label class="block mb-2" for="hectares">
-                <i class="fas fa-ruler-combined text-green-400 mr-2"></i
-                >हेक्टेयर
-              </label>
+              <label class="block mb-2" for="hectares"> हेक्टेयर </label>
               <input
                 type="number"
                 id="hectares"
